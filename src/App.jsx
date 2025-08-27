@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './Navbar'
-import {BrowserRouter as router } from 'react-router-dom'
+// import {BrowserRouter as router } from 'react-router-dom'
 import Hero from './Hero'
+import Carousel from './Carousel'
+import Top from './Top'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
 
@@ -15,6 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <h1>Welcome to the ecommerce</h1>
+
+      <Carousel />
+      <Top />
     </div>
   )
 }
